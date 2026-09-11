@@ -57,8 +57,8 @@ Download only from this repository's [Releases](https://github.com/alanjun0411/d
 
 1. Download the exe or zip above. The files are **not** signed with a Windows EV code-signing certificate. Windows or security software may show SmartScreen, “Unknown publisher,” or a block. That is common for unsigned software. It does **not** mean the files were security-reviewed, and it does **not** mean they have not been tampered with.
 2. Whether you continue past a system warning is your decision. This document does **not** recommend turning off OS security features or antivirus, and it is not guidance or a warranty for bypassing those warnings.
-3. For the installer, follow the setup wizard. For the zip, extract it to a directory you can write to.
-4. The first launch extracts the bundled runtime into the user profile and may be slow.
+3. For the installer, follow the setup wizard. Setup unpacks and installs the bundled runtime and shows the current step, elapsed time, a remaining-time estimate, and a progress bar. Quit a running copy of DSH Community Desktop first. For the zip, extract it to a directory you can write to; the first open shows the same preparing window.
+4. After the installer finishes, opening the app still starts the desktop backend for a short time. The zip’s first open may be slower.
 5. Model chat needs your own DeepSeek API key (or the `DEEPSEEK_API_KEY` environment variable). The package does **not** contain a key. You keep the key and must follow DeepSeek's API and product terms. The maintainer does not collect your key.
 
 ## Updates
