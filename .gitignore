@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.exe
+*.zip
+*.blockmap
+latest.yml
+rc.yml
+win-unpacked/
+release-assets/
+请用浏览器发布.txt
+使用说明.md
+
